@@ -1,0 +1,18 @@
+<html>
+  <head>
+  <body>
+   <script>
+		function displayName(){
+		var name=document.getElementById("firstName").value;
+		document.getElementById("Yput").innerHTML= "Hello " + name;
+		}
+
+	</script>
+    <form>
+      <input type="text" id="firstName">
+      <div id="Yput"></div><br><br>
+	  <!--Display the Name-->
+	  <input type="submit" onclick="displayName()" value="submit">
+     </form>
+  </body>
+</html>
